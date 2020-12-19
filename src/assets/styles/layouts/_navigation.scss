@@ -1,0 +1,26 @@
+/* *********** */
+
+/* * NAVIGATION *** */
+
+/* *********** */
+
+// .navigation {
+//   position: fixed;
+//   top: 0;
+//   z-index: 1;
+//   width: 100%;
+//   font-size: 13px;
+//   background-color: black;
+
+//   @media screen and (min-width: 425px) {
+//     font-size: 16px;
+//   }
+// }
+
+// .navigation--secondary {
+//   background-color: black;
+// }
+
+.navigation__item-active {
+  border-bottom: 5px solid $primary-color;
+}

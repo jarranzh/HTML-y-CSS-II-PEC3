@@ -1,0 +1,21 @@
+/* *********** */
+
+/* * lists *** */
+
+/* *********** */
+
+.list__item {
+  padding-bottom: 15px;
+  margin: 0;
+  font-weight: bold;
+  list-style: none;
+}
+
+.list__item__inner {
+  font-weight: 400;
+}
+
+.list__item--secondary {
+  font-weight: bold;
+  list-style-type: none;
+}

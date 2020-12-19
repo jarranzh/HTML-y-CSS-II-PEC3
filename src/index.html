@@ -1,312 +1,114 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, user-scalable=no" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
-        />
-        <!-- do not remove this line! -->
-        <title>UOC Boilerplate</title>
-    </head>
-    <body>
-        <img
-            src="assets/images/logo.png"
-            alt="Universitat Oberta de Catalunya"
-            class="uoc-logo"
-        />
-        <h1 class="uoc-title">Hello, UOC!</h1>
-        <p>
-            This is a starter template for the Advanced HTML and CSS Tools
-            courses from the Master's Program in Multimedia Applications and the
-            Master's Program in Web App and Website Development at the
-            Universitat Oberta de Catalunya.
-        </p>
-        <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
-            <img
-                class="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
-                src="assets/images/logo.png"
-                alt=""
-                width="384"
-                height="512"
-            />
-            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
-                <blockquote>
-                    <p class="text-lg font-semibold">
-                        “Tailwind CSS is the only framework that I've seen scale
-                        on large teams. It’s easy to customize, adapts to any
-                        design, and the build size is tiny.”
-                    </p>
-                </blockquote>
-                <figcaption class="font-medium">
-                    <div class="text-cyan-600">
-                        Sarah Dayan
-                    </div>
-                    <div class="text-gray-500">
-                        Staff Engineer, Algolia
-                    </div>
-                </figcaption>
-            </div>
-        </figure>
+<html lang="es">
 
-        <h1>COLOR:</h1>
-        <ul class="space-y-2">
-            <li>
-                <ul class="grid grid-cols-10 h-7">
-                    <li class="bg-red-50"></li>
-                    <li class="bg-red-100"></li>
-                    <li class="bg-red-200"></li>
-                    <li class="bg-red-300"></li>
-                    <li class="bg-red-400"></li>
-                    <li class="bg-red-500"></li>
-                    <li class="bg-red-600"></li>
-                    <li class="bg-red-700"></li>
-                    <li class="bg-red-800"></li>
-                    <li class="bg-red-900"></li>
-                </ul>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>Music Fest</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link navigation__item-active" href="/">HOME</a>
             </li>
-            <li>
-                <ul class="grid grid-cols-10 h-7">
-                    <li class="bg-yellow-50"></li>
-                    <li class="bg-yellow-100"></li>
-                    <li class="bg-yellow-200"></li>
-                    <li class="bg-yellow-300"></li>
-                    <li class="bg-yellow-400"></li>
-                    <li class="bg-yellow-500"></li>
-                    <li class="bg-yellow-600"></li>
-                    <li class="bg-yellow-700"></li>
-                    <li class="bg-yellow-800"></li>
-                    <li class="bg-yellow-900"></li>
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="/artistas.html">ARTISTS</a>
             </li>
-            <li>
-                <ul class="grid grid-cols-10 h-7">
-                    <li class="bg-green-50"></li>
-                    <li class="bg-green-100"></li>
-                    <li class="bg-green-200"></li>
-                    <li class="bg-green-300"></li>
-                    <li class="bg-green-400"></li>
-                    <li class="bg-green-500"></li>
-                    <li class="bg-green-600"></li>
-                    <li class="bg-green-700"></li>
-                    <li class="bg-green-800"></li>
-                    <li class="bg-green-900"></li>
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="/info.html">INFO</a>
             </li>
-            <li>
-                <ul class="grid grid-cols-10 h-7">
-                    <li class="bg-blue-50"></li>
-                    <li class="bg-blue-100"></li>
-                    <li class="bg-blue-200"></li>
-                    <li class="bg-blue-300"></li>
-                    <li class="bg-blue-400"></li>
-                    <li class="bg-blue-500"></li>
-                    <li class="bg-blue-600"></li>
-                    <li class="bg-blue-700"></li>
-                    <li class="bg-blue-800"></li>
-                    <li class="bg-blue-900"></li>
-                </ul>
-            </li>
-            <li>
-                <ul class="grid grid-cols-10 h-7">
-                    <li class="bg-purple-50"></li>
-                    <li class="bg-purple-100"></li>
-                    <li class="bg-purple-200"></li>
-                    <li class="bg-purple-300"></li>
-                    <li class="bg-purple-400"></li>
-                    <li class="bg-purple-500"></li>
-                    <li class="bg-purple-600"></li>
-                    <li class="bg-purple-700"></li>
-                    <li class="bg-purple-800"></li>
-                    <li class="bg-purple-900"></li>
-                </ul>
-            </li>
-            <li>
-                <ul class="grid grid-cols-10 h-7">
-                    <li class="bg-pink-50"></li>
-                    <li class="bg-pink-100"></li>
-                    <li class="bg-pink-200"></li>
-                    <li class="bg-pink-300"></li>
-                    <li class="bg-pink-400"></li>
-                    <li class="bg-pink-500"></li>
-                    <li class="bg-pink-600"></li>
-                    <li class="bg-pink-700"></li>
-                    <li class="bg-pink-800"></li>
-                    <li class="bg-pink-900"></li>
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="/contacto.html">CONTACT</a>
             </li>
         </ul>
+    </nav>
+    <main class="wrapper">
+        <header class="header">
+            <img class="header__image logo" src="assets/images/logo.jpg" />
+            <h1 class="header__title item item-title">MUSIC FEST 2021</h1>
+            <p class="header__subtitle item item-date">BARCELONA, JUNIO DE 2021</p>
+        </header>
+        <section class="main-item">
+            <h2 class="main-item__title">ELECTRÓNICA</h2>
+            <img class="main-item__image" src="assets/images/electronica.jpg" />
 
-        <h1>SIZING</h1>
+            <ul class="main-item__list item-set-artists list">
+                <li class="list__item">PENDULUM</li>
+                <li class="list__item">THE PRODIGY</li>
+                <li class="list__item">CHEMICAL BROTHERS</li>
+            </ul>
+        </section>
+        <section class="main-item reverse">
+            <h2 class="main-item__title item-rock">ROCK</h2>
+            <img class="main-item__image" src="assets/images/rock.jpg" />
+            <ul class="main-item__list item-set-artists list">
+                <li class="list__item">ARCTIC MONKEYS</li>
+                <li class="list__item">THE STROKES</li>
+                <li class="list__item">THE KILLERS</li>
+            </ul>
 
-        <ul class="space-y-4">
-            <li>
-                <div
-                    class="w-64 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-56 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-48 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-40 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-32 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-24 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-20 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-16 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-12 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-            <li>
-                <div
-                    class="w-10 h-3 bg-gradient-to-br from-fuchsia-500 to-purple-600"
-                ></div>
-            </li>
-        </ul>
+        </section>
+        <section class="main-item">
+            <h2 class="main-item__title">INDIE</h2>
+            <img class="item main-item__image" src="assets/images/indie.jpg"/>
+            <ul class="main-item__list item-set-artists list">
+                <li class="list__item">TWO DOOR CINEMA CLUB</li>
+                <li class="list__item">SAINT MOTEL</li>
+                <li class="list__item">YOUNG THE GIANT</li>
+            </ul>
 
-        <h1>SIMPLE:</h1>
-        <div class="flex">
-            <div class="flex-none w-48 relative">
-                <img
-                src="assets/images/logo.png"
-                alt=""
-                    class="absolute inset-0 w-full h-full object-cover"
-                />
+
+        </section>
+        <section class="main-item--secondary">
+            <h2 class="main-item__title">¡¡TICKETS YA A LA VENTA!!</p>
+        </section>
+    </main>
+    <footer class="footer py-3">
+        <div class="main-content main-content--flex">
+            <img class="footer__img logo" src="assets/images/logo.jpg" />
+            <div class="footer__section">
+                <p class="footer__section__item">© MUSIC FEST</p>
+                <p class="footer__section__item">BARCELONA</p>
             </div>
-            <form class="flex-auto p-6">
-                <div class="flex flex-wrap">
-                    <h1 class="flex-auto text-xl font-semibold">
-                        Classic Utility Jacket
-                    </h1>
-                    <div class="text-xl font-semibold text-gray-500">
-                        $110.00
-                    </div>
-                    <div
-                        class="w-full flex-none text-sm font-medium text-gray-500 mt-2"
-                    >
-                        In stock
-                    </div>
-                </div>
-                <div class="flex items-baseline mt-4 mb-6">
-                    <div class="space-x-2 flex">
-                        <label>
-                            <input
-                                class="w-9 h-9 flex items-center justify-center bg-gray-100 rounded-lg"
-                                name="size"
-                                type="radio"
-                                value="xs"
-                                checked
-                            />
-                            XS
-                        </label>
-                        <label>
-                            <input
-                                class="w-9 h-9 flex items-center justify-center"
-                                name="size"
-                                type="radio"
-                                value="s"
-                            />
-                            S
-                        </label>
-                        <label>
-                            <input
-                                class="w-9 h-9 flex items-center justify-center"
-                                name="size"
-                                type="radio"
-                                value="m"
-                            />
-                            M
-                        </label>
-                        <label>
-                            <input
-                                class="w-9 h-9 flex items-center justify-center"
-                                name="size"
-                                type="radio"
-                                value="l"
-                            />
-                            L
-                        </label>
-                        <label>
-                            <input
-                                class="w-9 h-9 flex items-center justify-center"
-                                name="size"
-                                type="radio"
-                                value="xl"
-                            />
-                            XL
-                        </label>
-                    </div>
-                    <div class="ml-auto text-sm text-gray-500 underline">
-                        Size Guide
-                    </div>
-                </div>
-                <div class="flex space-x-3 mb-4 text-sm font-medium">
-                    <div class="flex-auto flex space-x-3">
-                        <button
-                            class="w-1/2 flex items-center justify-center rounded-md bg-black text-white"
-                            type="submit"
-                        >
-                            Buy now
-                        </button>
-                        <button
-                            class="w-1/2 flex items-center justify-center rounded-md border border-gray-300"
-                            type="button"
-                        >
-                            Add to bag
-                        </button>
-                    </div>
-                    <button
-                        class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-gray-400 border border-gray-300"
-                        type="button"
-                        aria-label="like"
-                    >
-                        <svg width="20" height="20" fill="currentColor">
-                            <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                            />
-                        </svg>
-                    </button>
-                </div>
-                <p class="text-sm text-gray-500">
-                    Free shipping on all continental US orders.
-                </p>
-            </form>
+            <div class="nav footer__section">
+                <a class="nav-link" href="/">
+                    <i class="fab fa-facebook-f footer__section__item"></i>
+                </a>
+                <a class="nav-link" href="/">
+                    <i class="fab fa-twitter footer__section__item"></i>
+                </a>
+                <a class="nav-link" href="/">
+                    <i class="fab fa-instagram footer__section__item"></i>
+                </a>
+
+            </div>
         </div>
 
-        <script src="./assets/scripts/main.js"></script
-        ><!-- do not remove this line! -->
-    </body>
+        <nav class="navigation--secondary">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/artistas.html">ARTISTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/info.html">INFO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contacto.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+</body>
+
 </html>

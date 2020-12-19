@@ -1,0 +1,28 @@
+/* *********** */
+
+/* * FOOTER *** */
+
+/* *********** */
+
+.footer {
+  color: $primary-color;
+  background-color: black;
+}
+
+.footer__section {
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.footer__section__item {
+  margin: 0;
+}
+
+.footer__img {
+  width: 100px;
+
+  @media screen and (min-width: 768px) {
+    width: 150px;
+  }
+}

@@ -1,0 +1,22 @@
+/* *********** */
+
+/* * HEADER *** */
+
+/* *********** */
+
+.header {
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: $primary-color;
+}
+
+.header__title {
+  @media screen and (min-width: 768px) {
+    font-size: 10vw;
+  }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 105px;
+  }
+}
