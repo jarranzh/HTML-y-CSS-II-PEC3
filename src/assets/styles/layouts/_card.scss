@@ -4,35 +4,6 @@
 
 /* ************ */
 
-// .card {
-//   width: min-content;
-//   margin: 10px;
-//   border: 1px solid $secondary;
-//   border-radius: 5px;
-
-//   @media screen and (min-width: 1024px) {
-//     margin: 10px 20px;
-//   }
-// }
-
-// .card__body {
-//   padding: 10px 20px;
-// }
-
-// .card__title {
-//   margin: 0;
-//   font-size: 18px;
-//   font-weight: bold;
-// }
-
-// .card__subtitle {
-//   color: $secondary;
-// }
-
-// .card__description {
-//   margin: 0;
-// }
-
 .card {
   @apply bg-white w-min border rounded border-secondary m-2.5 lg:mx-5;
 }
@@ -52,7 +23,3 @@
 .card__subtitle {
   @apply text-secondary mb-4;
 }
-
-// .card__description {
-//   margin: 0;
-// }
