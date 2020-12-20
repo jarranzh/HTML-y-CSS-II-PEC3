@@ -7,17 +7,23 @@ module.exports = {
     colors: {
       cyan: colors.cyan,
       black: colors.black,
+      white: colors.white,
       primary: "#d3fbd8",
       primaryTransparent: "d3fbd8a6",
       primaryHover: "#8df59a",
-      secondary: "#b0b0b0"
+      secondary: "#6c757d"
     },
     screens: {
-      xs: "425px"
+      xs: "425px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px"
     },
-    fontSize: {
-      h1: "2.5rem"
-    },
+    // fontSize: {
+    //   h1: "2.5rem"
+    // },
     extend: {}
   },
   variants: {
