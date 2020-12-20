@@ -1,100 +1,120 @@
 <!DOCTYPE html>
 
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="assets/styles/main.scss" />
-    <!-- do not remove this line! -->
-    <title>Artists - Music Fest</title>
-  </head>
-  <body>
-    <nav class="navigation">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" href="/">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/artistas.html">ARTISTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/info.html">INFO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navigation__item-active" href="/contacto.html"
-            >CONTACT</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div class="main-content">
-      <h1>CONTACTA CON NOSOTROS</h1>
-      <p>
-        Si tienes dudas o quieres hacernos alguna sugerencia o reclamación,
-        escríbenos rellenando el siguiente formulario y te contestaremos lo
-        antes posible:
-      </p>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="assets/styles/main.scss" />
+        <!-- do not remove this line! -->
+        <title>Artists - Music Fest</title>
+    </head>
+    <body>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li>
+                    <a class="navigation__item" href="/">HOME</a>
+                </li>
+                <li>
+                    <a class="navigation__item" href="/artistas.html"
+                        >ARTISTS</a
+                    >
+                </li>
+                <li>
+                    <a class="navigation__item" href="/info.html">INFO</a>
+                </li>
+                <li>
+                    <a
+                        class="navigation__item navigation__item-active"
+                        href="/contacto.html"
+                        >CONTACT</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <h1 class="text-h1 font-medium mb-2 leading-h1">
+                CONTACTA CON NOSOTROS
+            </h1>
+            <p class="mb-4">
+                Si tienes dudas o quieres hacernos alguna sugerencia o
+                reclamación, escríbenos rellenando el siguiente formulario y te
+                contestaremos lo antes posible:
+            </p>
 
-      <form action="/" data-netlify="true" class="justify-content-center">
-        <div class="form-group">
-          <label for="name">Nombre:</label>
-          <input type="password" class="form-control" id="name" />
+            <form action="/" data-netlify="true" class="justify-content-center">
+                <div class="form-item">
+                    <label class="form-item__label" for="name">Nombre:</label>
+                    <input
+                        type="password"
+                        class="form-item__element"
+                        id="name"
+                    />
+                </div>
+                <div class="form-item">
+                    <label class="form-item__label" for="email">Email:</label>
+                    <input
+                        type="email"
+                        class="form-item__element"
+                        id="email"
+                        aria-describedby="emailHelp"
+                    />
+                </div>
+                <div class="form-item">
+                    <label class="form-item__label" for="message"
+                        >Mensaje:</label
+                    >
+                    <textarea
+                        class="form-item__element"
+                        name="message"
+                        id="message"
+                        rows="3"
+                    >
+                    </textarea>
+                </div>
+                <button
+                    type="submit"
+                    class="text-grayButton text-xl leading-normal bg-bgSecondary border rounded border-grayButton py-2 px-4"
+                >
+                    Enviar mensaje
+                </button>
+            </form>
         </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div class="form-group">
-          <label for="message">Mensaje:</label>
-          <textarea class="form-control" name="message" id="message" rows="3">
-          </textarea>
-        </div>
-        <button type="submit" class="btn btn-secondary btn-lg border-dark">
-          Enviar mensaje
-        </button>
-      </form>
-    </div>
-    <footer class="footer py-3">
-      <div class="main-content main-content--flex">
-        <img class="footer__img logo" src="assets/images/logo.jpg" />
-        <div class="footer__section">
-          <p class="footer__section__item">© MUSIC FEST</p>
-          <p class="footer__section__item">BARCELONA</p>
-        </div>
-        <div class="nav footer__section">
-          <a class="nav-link" href="/">
-            <i class="fab fa-facebook-f footer__section__item"></i>
-          </a>
-          <a class="nav-link" href="/">
-            <i class="fab fa-twitter footer__section__item"></i>
-          </a>
-          <a class="nav-link" href="/">
-            <i class="fab fa-instagram footer__section__item"></i>
-          </a>
-        </div>
-      </div>
-      <nav class="navigation--secondary">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="/">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/artistas.html">ARTISTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/info.html">INFO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contacto.html">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-  </body>
+        <footer class="footer py-3">
+            <div class="main-content main-content--flex">
+                <img class="footer__img logo" src="assets/images/logo.jpg" />
+                <div class="footer__section">
+                    <p class="footer__section__item">© MUSIC FEST</p>
+                    <p class="footer__section__item">BARCELONA</p>
+                </div>
+                <div class="nav footer__section">
+                    <a class="nav-link" href="/">
+                        <i class="fab fa-facebook-f footer__section__item"></i>
+                    </a>
+                    <a class="nav-link" href="/">
+                        <i class="fab fa-twitter footer__section__item"></i>
+                    </a>
+                    <a class="nav-link" href="/">
+                        <i class="fab fa-instagram footer__section__item"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navigation--secondary">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/artistas.html">ARTISTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/info.html">INFO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacto.html">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>

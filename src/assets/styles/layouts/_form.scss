@@ -1,0 +1,11 @@
+.form-item {
+  @apply mb-4;
+}
+
+.form-item__label {
+  @apply inline-block mb-2;
+}
+
+.form-item__element {
+  @apply block w-full py-1.5 px-3 border rounded border-grayForm;
+}

@@ -4,23 +4,18 @@
 
 /* *********** */
 
-// .navigation {
-//   position: fixed;
-//   top: 0;
-//   z-index: 1;
-//   width: 100%;
-//   font-size: 13px;
-//   background-color: black;
+.navigation {
+  @apply fixed top-0 z-10 w-full text-sm bg-black xs:text-base;
+}
 
-//   @media screen and (min-width: 425px) {
-//     font-size: 16px;
-//   }
-// }
+.navigation__list {
+  @apply flex flex-wrap m-0 justify-center text-primary;
+}
 
-// .navigation--secondary {
-//   background-color: black;
-// }
+.navigation__item {
+  @apply block py-2 px-4 hover:no-underline hover:text-primaryHover;
+}
 
 .navigation__item-active {
-  border-bottom: 5px solid $primary-color;
+  @apply border-solid border-b-4 border-primary;
 }
