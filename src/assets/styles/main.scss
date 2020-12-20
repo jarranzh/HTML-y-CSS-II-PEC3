@@ -16,6 +16,8 @@
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 /**
  * Import layouts
  * It's a best practice to use a partial for each page
@@ -23,9 +25,7 @@
 
 @import "layouts/home";
 @import "layouts/card";
-@import "layouts/footer";
 @import "layouts/navigation";
-@import "layouts/images";
 @import "layouts/main-content";
 @import "layouts/form";
 

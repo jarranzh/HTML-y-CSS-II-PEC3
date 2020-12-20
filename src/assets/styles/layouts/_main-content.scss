@@ -5,25 +5,9 @@
 /* *********** */
 
 .main-content {
-  padding: 80px 20px;
-
-  @media screen and (min-width: 1024px) {
-    max-width: 80vw;
-    margin: auto;
-  }
-
-  @media screen and (min-width: 1800px) {
-    width: 1440px;
-    margin: auto;
-  }
+  @apply py-20 px-5 lg:max-w-80 lg:m-auto 3xl:w-1440;
 }
 
 .main-content--flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-  @media screen and (min-width: 768px) {
-    justify-content: space-between;
-  }
+  @apply flex flex-wrap justify-around md:justify-between;
 }

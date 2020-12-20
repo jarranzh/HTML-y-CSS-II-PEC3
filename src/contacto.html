@@ -9,7 +9,7 @@
         <!-- do not remove this line! -->
         <title>Artists - Music Fest</title>
     </head>
-    <body>
+    <body class="body-content">
         <nav class="navigation">
             <ul class="navigation__list">
                 <li>
@@ -45,11 +45,7 @@
             <form action="/" data-netlify="true" class="justify-content-center">
                 <div class="form-item">
                     <label class="form-item__label" for="name">Nombre:</label>
-                    <input
-                        type="password"
-                        class="form-item__element"
-                        id="name"
-                    />
+                    <input type="text" class="form-item__element" id="name" />
                 </div>
                 <div class="form-item">
                     <label class="form-item__label" for="email">Email:</label>
@@ -80,21 +76,25 @@
                 </button>
             </form>
         </div>
-        <footer class="footer py-3">
+        <footer class="text-primary bg-black py-4">
             <div class="main-content main-content--flex">
-                <img class="footer__img logo" src="assets/images/logo.jpg" />
-                <div class="footer__section">
-                    <p class="footer__section__item">© MUSIC FEST</p>
-                    <p class="footer__section__item">BARCELONA</p>
+                <img
+                    class="max-w-100px md:max-w-150px rounded-full"
+                    src="assets/images/logo.jpg"
+                    alt="Music Fest logo"
+                />
+                <div class="text-base md:text-xl">
+                    <p class="leading-30px">© MUSIC FEST</p>
+                    <p class="leading-30px">BARCELONA</p>
                 </div>
-                <div class="nav footer__section">
-                    <a class="nav-link" href="/">
+                <div class="text-base md:text-xl flex flex-wrap">
+                    <a class="block py-2 px-4" href="/">
                         <i class="fab fa-facebook-f footer__section__item"></i>
                     </a>
-                    <a class="nav-link" href="/">
+                    <a class="block py-2 px-4" href="/">
                         <i class="fab fa-twitter footer__section__item"></i>
                     </a>
-                    <a class="nav-link" href="/">
+                    <a class="block py-2 px-4" href="/">
                         <i class="fab fa-instagram footer__section__item"></i>
                     </a>
                 </div>
